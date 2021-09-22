@@ -14,6 +14,7 @@ const Header = () => {
               <NavLink className="p-2" to="/purecomp">PureComp</NavLink> 
               <NavLink className="p-2" to="/adjel">Adj el</NavLink> 
               <NavLink className="p-2" to="/profile">Profile</NavLink> 
+              <NavLink className="p-2" to="/user">User</NavLink> 
             </nav>
           </div>
         </header>

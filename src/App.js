@@ -7,6 +7,7 @@ import PureComp from './components/pureComp'
 import PureCompF from './components/pureCompf'
 import Adjel from './components/adjel';
 import Profile from './components/profile';
+import User from './components/user'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Switch>
         <Route path="/profile" component={Profile} />
         <Route path="/adjel" component={Adjel} />
+        <Route path="/user" component={User} />
         <Route path="/purecomp" component={PureComp} />
         <Route path="/purecompf" component={PureCompF} />
         <Route path="/" component={Home} />
